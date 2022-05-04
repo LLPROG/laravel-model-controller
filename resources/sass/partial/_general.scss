@@ -1,0 +1,16 @@
+.cards-cont {
+    background-color: beige;
+    padding: 5rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .card {
+        background-color: beige;
+        width: calc(100% / 5 - 2rem);
+        padding: 3rem;
+        text-align: center;
+    }
+}
+
